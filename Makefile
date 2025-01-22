@@ -1,5 +1,5 @@
 build: 
-	@go build -o bin/dfs
+	@go build -o bin/dfs -buildvcs=false
 
 run: build
 	@./bin/dfs
